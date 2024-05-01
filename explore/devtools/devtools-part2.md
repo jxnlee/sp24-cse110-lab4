@@ -1,2 +1,2 @@
-1. What was the bug?
-2. How would you fix it?
+1. The bug was that when the operation `num1 + num2` was performed and assigned to `result`, it was concatenating `num1` and `num2` as strings and therefore the result would be `{num1}{num2}` instead of the sum of those values.
+2. I would fix it by type casting the input values as numbers (using Number()). This would then be the sum of two numbers. (can be seen [here](/expand/screenshots/fix.png))
